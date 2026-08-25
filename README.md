@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/falakdev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://falakdev.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/muhammad-falak-shair"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:shairfa63@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://falak-portfolio-psi.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
 </p>
 
 ---
@@ -20,7 +20,7 @@
 - 🧠 **AI/ML Engineer** — working across **LLM applications (LangChain, RAG, AI agents, OpenAI/Anthropic APIs)**, **classic ML (scikit-learn, pandas)**, and **deep learning (TensorFlow/PyTorch)**
 - 🔗 **My edge:** I connect these three worlds — shipping full-stack products with AI features baked in (chatbots, RAG search, recommendation engines) and automating the pipelines that keep them running
 - 🌱 Currently exploring: AI agent frameworks and scaling automation with LLMs
-- 📫 Reach me at: **your.email@example.com**
+- 📫 Reach me at: **shairfa63@gmail.com**
 
 ---
 
@@ -73,11 +73,13 @@
 
 | Project | Description | Tech |
 |---|---|---|
-| **[Project Name](#)** | AI-powered MERN app with a RAG-based chatbot for [use case] | React, Node.js, MongoDB, LangChain, OpenAI API |
-| **[Project Name](#)** | Automated data scraping & reporting pipeline that replaced X hours of manual work | Python, Selenium/Playwright, Pandas |
-| **[Project Name](#)** | ML-powered recommendation/prediction system integrated into a full-stack dashboard | React, Node.js, scikit-learn/PyTorch |
+| **[AI Chat Support Widget](#)** | Full-stack MERN app with an embedded RAG chatbot that answers questions from a knowledge base in real time | React, Node.js, MongoDB, LangChain, OpenAI API |
+| **[Web Scraper & Report Bot](#)** | Automation script that scrapes data from target sites on a schedule and emails a formatted daily report | Python, Selenium/Playwright, Pandas |
+| **[Smart Recommendation Dashboard](#)** | MERN dashboard with an ML model suggesting personalized content/products based on user behavior | React, Node.js, scikit-learn/PyTorch |
+| **[Auto Form-Filler Bot](#)** | Playwright-based bot that automates repetitive form submissions and data entry across web portals | Python, Playwright |
+| **[Resume/Doc Screener AI](#)** | AI tool that parses uploaded documents and scores/ranks them against custom criteria using an LLM | React, Node.js, OpenAI API, LangChain |
 
-> 💡 Replace these with your real repos — link each title to the repo and swap in the actual impact/result (e.g. "cut manual QA time by 80%").
+> 💡 These are placeholders in your exact skill areas — swap in real repo links and results once you build them (e.g. "cut manual QA time by 80%").
 
 ---
 
