@@ -79,7 +79,7 @@
 | **[Auto Form-Filler Bot](#)** | Playwright-based bot that automates repetitive form submissions and data entry across web portals | Python, Playwright |
 | **[Resume/Doc Screener AI](#)** | AI tool that parses uploaded documents and scores/ranks them against custom criteria using an LLM | React, Node.js, OpenAI API, LangChain |
 
-> 💡 These are placeholders in your exact skill areas — swap in real repo links and results once you build them (e.g. "cut manual QA time by 80%").
+
 
 ---
 
