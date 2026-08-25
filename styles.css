@@ -1,0 +1,37 @@
+/* styles.css — simple professional dashboard styles */
+:root{
+  --bg: #f7fafc;
+  --surface: #ffffff;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --text: #0f172a;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Arial,"Noto Sans","Helvetica Neue",sans-serif;margin:0;background:var(--bg);color:var(--text);}
+.container{display:flex;min-height:80vh;gap:24px;padding:32px;max-width:1100px;margin:24px auto}
+.sidebar{width:260px}
+.profile{background:linear-gradient(180deg,rgba(37,99,235,0.06),transparent);padding:20px;border-radius:12px;text-align:center}
+.avatar{width:84px;height:84px;border-radius:12px;margin:0 auto 12px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px}
+.profile h1{margin:0;font-size:20px}
+.tagline{margin:6px 0 0;color:var(--muted);font-size:13px}
+.links{margin-top:18px;display:flex;flex-direction:column;gap:8px}
+.links a{color:var(--accent);text-decoration:none;font-weight:600}
+.contact{margin-top:22px;background:var(--surface);padding:14px;border-radius:10px;border:1px solid rgba(15,23,42,0.05)}
+.contact h3{margin:0 0 8px}
+.contact ul{list-style:none;padding:0;margin:0;color:var(--muted);font-size:14px}
+.contact a{color:var(--accent)}
+.main{flex:1}
+.main-header{display:flex;flex-direction:column;gap:6px}
+.main-header h2{margin:0}
+.lead{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}
+.card{background:var(--surface);padding:18px;border-radius:10px;border:1px solid rgba(15,23,42,0.04)}
+.card h4{margin:0 0 6px}
+.panel{background:var(--surface);padding:18px;border-radius:10px;border:1px solid rgba(15,23,42,0.04);margin-bottom:14px}
+.skill-list{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.skill-list li{background:#eef2ff;color:#1e293b;padding:8px 12px;border-radius:999px;font-weight:600}
+.project-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.project{padding:12px;border-radius:8px;background:linear-gradient(180deg,rgba(37,99,235,0.03),transparent);border:1px solid rgba(37,99,235,0.06)}
+.site-footer{text-align:center;color:var(--muted);padding:18px 0;margin-top:24px}
+.muted{color:var(--muted)}
+@media (max-width:900px){.container{flex-direction:column;padding:18px}.sidebar{width:100%}.cards{grid-template-columns:repeat(1,1fr)}.project-list{grid-template-columns:repeat(1,1fr)}}

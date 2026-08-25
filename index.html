@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Falak Shair — Dashboard</title>
+  <meta name="description" content="Professional dashboard and personal display page for Falak Shair." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">FS</div>
+        <h1>Falak Shair</h1>
+        <p class="tagline">Product-focused Engineer &amp; Problem Solver</p>
+      </div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: <a href="#">your.email@example.com</a></li>
+          <li>GitHub: <a href="https://github.com/falakdev" target="_blank">@falakdev</a></li>
+          <li>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="main-header">
+        <h2>Professional Dashboard</h2>
+        <p class="lead">A concise view of your work, skills, and links. Edit this page to showcase projects and metrics.</p>
+      </header>
+
+      <section id="overview" class="cards">
+        <article class="card">
+          <h4>Experience</h4>
+          <p>5+ years building products and services (placeholder)</p>
+        </article>
+        <article class="card">
+          <h4>Current Focus</h4>
+          <p>Frontend &amp; Systems — scaling reliable user experiences</p>
+        </article>
+        <article class="card">
+          <h4>Availability</h4>
+          <p>Open to collaborations and opportunities</p>
+        </article>
+      </section>
+
+      <section id="about" class="panel">
+        <h3>About</h3>
+        <p>Hi — I'm Falak Shair. This is a professional dashboard placeholder where you can add your bio, a summary of achievements, and links to work. Update the content in the repository to reflect your profile.</p>
+      </section>
+
+      <section id="skills" class="panel">
+        <h3>Skills</h3>
+        <ul class="skill-list">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript / TypeScript</li>
+          <li>React / Frontend frameworks</li>
+          <li>APIs &amp; Systems Design</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="panel">
+        <h3>Projects</h3>
+        <div class="project-list">
+          <div class="project">
+            <h4>Project One</h4>
+            <p>Short description — replace with your project details.</p>
+          </div>
+          <div class="project">
+            <h4>Project Two</h4>
+            <p>Short description — replace with your project details.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel">
+        <h3>Contact & Links</h3>
+        <p>You can edit the links in <code>index.html</code> to point to your email, LinkedIn, Twitter, or personal website.</p>
+        <p class="muted">To publish the page via GitHub Pages: Settings → Pages → Deploy from branch → main / root.</p>
+      </section>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Falak Shair — Built with ❤️</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
